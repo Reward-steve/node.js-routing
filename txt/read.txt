@@ -1,0 +1,4 @@
+example of a readtxt file: I'm just trying out what i learnt in node.js and npm, i hope it works and all the early hours of waking up and grinding are not in vian. 
+ I'm busy feeling myself because of all my recent 
+ achievement of improving myself daily, 
+ I can't be thesame as i was yesterday

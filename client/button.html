@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose Path</title>
+    <style>
+      .dashboard {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        padding: 20px 0;
+        margin: 10px auto;
+      }
+
+      .dashboard button {
+        padding: 20px 30px;
+        width: 150px;
+        margin: 0 auto;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.3s linear;
+      }
+
+      .dashboard button:hover {
+        transform: translateX(10px);
+        border-right: 1px solid rgb(0, 153, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard">
+      <a href="/business"><button>Business</button></a>
+      <a href="/technology"><button>Technology</button></a>
+      <a href="/technical_world"><button>Tech-World</button></a>
+      <a href="/education"><button>Education</button></a>
+    </div>
+  </body>
+</html>

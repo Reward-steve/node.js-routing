@@ -1,0 +1,90 @@
+{
+  "business": [
+    {
+      "bg_color": "linear-gradient(45deg, #09353a, #c5d7e6)",
+      "id": 1,
+      "category": "Startup",
+      "tip": "Focus on solving one problem exceptionally well before expanding your offerings.",
+      "statistic": "STATISTICS: 90% of startups fail due to lack of product-market fit or poor marketing."
+    },
+    {
+      "id": 2,
+      "position": "end",
+      "category": "Leadership",
+      "tip": "Empower your team to make decisions and take ownership of their projects.",
+      "quote": "QOUTE: Leadership is not about being in charge; it is about taking care of those in your charge. - Simon Sinek"
+    },
+    {
+      "id": 3,
+      "category": "Finance",
+      "tip": "Monitor your cash flow weekly and invest 10% of revenue into innovation.",
+      "statistic": "STATISTICS: 42% of small businesses fail due to cash flow issues."
+    }
+  ],
+  "education": [
+    {
+      "bg_color": "linear-gradient(45deg, black, rgb(90 130 166))",
+      "id": 1,
+      "category": "Learning Strategies",
+      "tip": "Use active recall and spaced repetition to improve long-term memory retention.",
+      "quote": "QUOTE: The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice. - Brian Herbert"
+    },
+    {
+      "id": 2,
+      "position": "end",
+      "category": "Student Success",
+      "tip": "Set SMART (Specific, Measurable, Achievable, Relevant, Time-bound) goals for effective studying.",
+      "statistic": "STATISTICS: Students who set specific goals are 33% more likely to succeed academically."
+    },
+    {
+      "id": 3,
+      "category": "EdTech",
+      "tip": "Leverage interactive apps like Duolingo or Khan Academy for personalized learning experiences.",
+      "statistic": "STATISTICS: 87% of students report that digital tools make learning more engaging."
+    }
+  ],
+  "technology": [
+    {
+      "bg_color": "linear-gradient(45deg, black, #7f22a6)",
+      "id": 1,
+      "category": "AI and Machine Learning",
+      "tip": "Businesses should focus on explainable AI to build trust and transparency with users.",
+      "statistic": "STATISTICS: By 2030, AI could contribute up to $15.7 trillion to the global economy."
+    },
+    {
+      "id": 2,
+      "position": "end",
+      "category": "Cybersecurity",
+      "tip": "Implement multi-factor authentication (MFA) and regular security audits to reduce breaches.",
+      "statistic": "STATISTICS: A successful phishing attack occurs every 39 seconds globally."
+    },
+    {
+      "id": 3,
+      "category": "Cloud Computing",
+      "tip": "Choose a hybrid cloud strategy to balance security and scalability.",
+      "statistic": "STATISTICS: 94% of enterprises already use a cloud service."
+    }
+  ],
+  "technical_world": [
+    {
+      "bg_color": "linear-gradient(45deg, #5e0a0a, #03033c)",
+      "id": 1,
+      "category": "Programming",
+      "tip": "Write modular, reusable code to improve maintainability and reduce bugs.",
+      "quote": "QUOTE: Any fool can write code that a computer can understand. Good programmers write code that humans can understand. - Martin Fowler"
+    },
+    {
+      "id": 2,
+      "position": "end",
+      "category": "Software Development",
+      "tip": "Adopt Agile methodologies to deliver products faster and adapt to changes effectively.",
+      "statistic": "STATISTICS: 71% of organizations use Agile for their software projects."
+    },
+    {
+      "id": 3,
+      "category": "Networking",
+      "tip": "Regularly update firmware and software to mitigate vulnerabilities in network devices.",
+      "statistic": "STATISTICS: Over 60% of cyberattacks exploit unpatched vulnerabilities in network infrastructure."
+    }
+  ]
+}
