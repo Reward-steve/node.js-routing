@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
       res.writeHead(200, {
         "content-type": "text/html",
       });
-      // const backBtn = document.createElement("a");
+
       const cardHtml = result
         .map((el) => {
           return replaceTemplate(categoryPage, el);
@@ -50,6 +50,7 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(3000, "127.0.0.1", () => {
-  console.log("Listening to request on 3000");
+const port = 3000;
+server.listen(port, "127.0.0.1", () => {
+  console.log(`Listening to request on ${port}`);
 });
