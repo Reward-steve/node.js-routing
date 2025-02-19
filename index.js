@@ -1,12 +1,12 @@
 const fs = require("fs");
 const http = require("http");
-const url = require("url");
+
 const replaceTemplate = require("./modules/replaceTemplate");
 
 const button = fs.readFileSync(`${__dirname}/client/button.html`, "utf-8");
 const categoryPage = fs.readFileSync(`${__dirname}/client/index.html`, "utf-8");
 const data = JSON.parse(
-  fs.readFileSync(`${__dirname}/Server/data/data.json`, "utf-8")
+  fs.readFileSync(`${__dirname}/data/data.json`, "utf-8")
 );
 
 const server = http.createServer((req, res) => {
